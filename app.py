@@ -11,8 +11,10 @@ if operation == '+':
     result = num1 + num2
 elif operation == '-':
     result = num1 - num2
+elif operation == '*':
+    result = num1 * num2
 else:
-    print("Unknown operation. Use '+' or '-'.")
+    print("Unknown operation. Use '+' or '-' or '*'.")
     sys.exit(1)
 
 print(f'Result: {result}')
